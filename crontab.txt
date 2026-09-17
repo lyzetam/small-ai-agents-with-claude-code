@@ -1,0 +1,5 @@
+# Linux equivalent of the three plists (minute hour dom month dow). Paths are yours.
+30 0 * * *   cd /home/me/agents && /usr/bin/python3 reader/collect.py --apply  >> logs/reader.out.log 2>> logs/reader.err.log
+0  6 * * *   cd /home/me/agents && /usr/bin/python3 writer/writer.py  --apply  >> logs/writer.out.log 2>> logs/writer.err.log
+30 11 * * 1-5 cd /home/me/agents && /usr/bin/python3 decider/decide.py --apply >> logs/decider.out.log 2>> logs/decider.err.log
+0  22 * * 0  cd /home/me/agents && /usr/bin/python3 check.py                   >> logs/check.out.log 2>> logs/check.err.log

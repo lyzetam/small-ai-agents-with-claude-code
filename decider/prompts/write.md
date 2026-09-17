@@ -1,0 +1,1 @@
+Write a 60–90 second spoken script (about 180 words) from the research below, in the voice described in the files that follow it. Obey claims.md and guardrails.md exactly. Structure: one-sentence thesis, the facts with names and numbers, one plain analogy, one practical instruction, a short sign-off. Return the title and the script text only.

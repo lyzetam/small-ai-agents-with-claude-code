@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>            <string>local.agents.writer</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>/Users/me/agents/writer/writer.py</string>
+    <string>--apply</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>6</integer><key>Minute</key><integer>0</integer></dict>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>          <string>/Users/me/.local/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>AGENT_BACKEND</key> <string>cli</string>
+  </dict>
+  <key>StandardOutPath</key>  <string>/Users/me/agents/logs/writer.out.log</string>
+  <key>StandardErrorPath</key><string>/Users/me/agents/logs/writer.err.log</string>
+  <key>TimeOut</key>          <integer>600</integer>
+</dict>
+</plist>

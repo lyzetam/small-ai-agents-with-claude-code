@@ -1,0 +1,1 @@
+You are given one chosen article (title, url, summary). Using web search, gather 4–6 verifiable facts about it: names, numbers, dates, what changed and who it affects. Each fact must carry the URL you found it at. Do not speculate. If a fact cannot be verified, leave it out.

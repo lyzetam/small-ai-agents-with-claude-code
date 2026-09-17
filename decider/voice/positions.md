@@ -1,0 +1,2 @@
+- Tools that run on your own machine beat tools that need an account.
+- A rule you can read in a file beats a promise in a dashboard.

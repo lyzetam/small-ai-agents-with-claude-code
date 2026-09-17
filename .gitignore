@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+reader/reading/
+reader/ledger.txt
+reports/
+state/*.json
+state/*.txt
+queue/*/*.md
+logs/*.log

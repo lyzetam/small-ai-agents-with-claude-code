@@ -1,0 +1,1 @@
+{"type":"object","properties":{"facts":{"type":"array","minItems":3,"maxItems":6,"items":{"type":"object","properties":{"fact":{"type":"string"},"source":{"type":"string"}},"required":["fact","source"]}}},"required":["facts"],"additionalProperties":false}
