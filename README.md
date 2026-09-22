@@ -53,6 +53,12 @@ Schedule: edit the `/Users/me` paths in `launchd/local.agents.writer.plist`, `pl
 7. **Budget is a switch.** `cli` on a subscription, `api` on a server, and never by accident.
 8. **You draft; the human sends.** Drafts go to a queue. Nothing here can send.
 
+## Contact
+
+If you improve a script, send it here as a pull request or an issue. For anything
+else — a question, a correction, an agent you built from this — email
+**landryzetam@agentmail.to**.
+
 ## License
 
 MIT. If the book helped, an honest review on Amazon helps the next reader find it.
