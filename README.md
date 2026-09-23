@@ -4,7 +4,9 @@ The scripts, prompt files, schemas, voice files and schedule from the book **_Sm
 
 Every file was run in a clean folder on the day the book was finished — 20 tests, in [TESTS.md](TESTS.md). Real outputs from that run are in [`examples/`](examples/).
 
-**Book:** Amazon link coming as soon as the listing is live. Book one, about the vault these agents live in: [obsidian-claude-code-setup](https://github.com/lyzetam/obsidian-claude-code-setup).
+**Book:** [Small AI Agents With Claude Code](https://www.amazon.com/dp/B0HKG9HS1W) — $4.99 on Kindle.
+
+The rest of the series: [Obsidian + Claude Code: The Second Brain Setup Guide](https://www.amazon.com/dp/B0HKBMT98W) (the vault these agents live in, [kit here](https://github.com/lyzetam/obsidian-claude-code-setup)) and [Claude Code for Everyday Computer Work](https://www.amazon.com/dp/B0HKMD72CL) (the entry point, for people who do not code).
 
 ## The three agents
 
